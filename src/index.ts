@@ -10,6 +10,10 @@ import { day07 } from "./day07/solution";
 import { day08 } from "./day08/solution";
 import { day09 } from "./day09/solution";
 import { day10 } from "./day10/solution";
+import { day11 } from "./day11/solution";
+import { day12 } from "./day12/solution";
+import { day13 } from "./day13/solution";
+import { day14 } from "./day14/solution";
 import { Star } from "./star";
 
 // parse argv
@@ -52,6 +56,18 @@ switch (day) {
     break;
   case 10:
     solution = day10(star);
+    break;
+  case 11:
+    solution = day11(star);
+    break;
+  case 12:
+    solution = day12(star);
+    break;
+  case 13:
+    solution = day13(star);
+    break;
+  case 14:
+    solution = day14(star);
     break;
 }
 
