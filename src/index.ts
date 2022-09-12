@@ -16,6 +16,7 @@ import { day13 } from "./day13/solution";
 import { day14 } from "./day14/solution";
 import { day15 } from "./day15/solution";
 import { day16 } from "./day16/solution";
+import { day17 } from "./day17/solution";
 import { Star } from "./star";
 
 // parse argv
@@ -76,6 +77,9 @@ switch (day) {
     break;
   case 16:
     solution = day16(star);
+    break;
+  case 17:
+    solution = day17(star);
     break;
 }
 
